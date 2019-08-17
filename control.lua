@@ -18,8 +18,8 @@ end)
 
 function UpdateHandCraftingSpeed()	
 	for key, player in pairs(game.players) do
-		player.force.manual_mining_speed_modifier = Config.HandCraftingSpeed - 1
-		player.force.manual_crafting_speed_modifier = Config.HandCraftingSpeed - 1
+		player.force.manual_mining_speed_modifier = settings.global["ir-HandCraftingSpeed"].value - 1
+		player.force.manual_crafting_speed_modifier = settings.global["ir-HandCraftingSpeed"].value - 1
 	end
 end
 
