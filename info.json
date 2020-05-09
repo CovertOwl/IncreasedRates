@@ -1,9 +1,9 @@
 {
   "name": "IncreasedRates",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "title": "Increased Rates",
   "author": "Reapa",  
   "homepage": "https://github.com/CovertOwl/IncreasedRates",
-  "description": "Increases ingame rates for research, mining and crafting.",
+  "description": "Increases ingame rates for research, mining and crafting. Pollution emissions can also be changed.",
   "factorio_version": "0.17"
 }
